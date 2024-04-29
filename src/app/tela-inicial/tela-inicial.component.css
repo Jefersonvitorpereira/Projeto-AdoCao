@@ -1,0 +1,32 @@
+main {
+  background: url(/assets/imagens/adote2.png) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.conteudo-centralizado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Cor do texto, ajuste conforme necessário */
+  z-index: 1; /* Garante que o texto fique sobre a imagem */
+}
+
+.conteudo-centralizado h1 {
+  font-size: 40px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+
+/* Sobreposição de cor */
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor e opacidade da sobreposição, ajuste conforme necessário */
+  z-index: 0; /* Coloca a sobreposição atrás do texto */
+}
