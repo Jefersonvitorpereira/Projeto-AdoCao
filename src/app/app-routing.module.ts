@@ -9,7 +9,6 @@ const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'sobre', component: TelaSobreComponent },
   { path: 'tela-inicial', component: TelaInicialComponent },
-  { path: 'tela-sobre', component: TelaSobreComponent },
 
 ];
 
