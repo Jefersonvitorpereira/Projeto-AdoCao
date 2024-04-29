@@ -27,6 +27,11 @@ main::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Cor e opacidade da sobreposição, ajuste conforme necessário */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Cor e opacidade da sobreposição, ajuste conforme necessário */
   z-index: 0; /* Coloca a sobreposição atrás do texto */
 }

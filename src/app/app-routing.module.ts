@@ -10,7 +10,6 @@ const routes: Routes = [
   { path: 'sobre', component: TelaSobreComponent },
   { path: 'tela-inicial', component: TelaInicialComponent },
   { path: 'tela-sobre', component: TelaSobreComponent },
-
 ];
 
 @NgModule({

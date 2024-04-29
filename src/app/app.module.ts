@@ -13,7 +13,7 @@ import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
     AppComponent,
     MenuComponent,
     TelaSobreComponent,
-    TelaInicialComponent
+    TelaInicialComponent,
 
     // Outros componentes declarados aqui
   ],
