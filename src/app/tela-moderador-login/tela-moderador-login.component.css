@@ -1,0 +1,68 @@
+/* Estilo para o formulário */
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Alinha os elementos verticalmente */
+}
+
+/* Estilo para os rótulos dos campos */
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px; /* Adiciona um espaço entre os rótulos e os campos de entrada */
+}
+
+/* Estilo para os campos de entrada */
+.form-control {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px; /* Espaço entre os campos de entrada */
+}
+
+/* Estilo para o botão de envio */
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Estilo para o botão de envio quando hover */
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para o texto abaixo dos campos de entrada */
+.form-text {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Estilo para a caixa de seleção e seu rótulo */
+.form-check-label {
+  margin-left: 5px;
+}
+
+/* Estilo para a caixa de seleção */
+.form-check-input {
+  margin-right: 5px;
+}
+
+/* Estilo para o conteúdo centralizado */
+.conteudo-centralizado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Garante que o texto fique sobre a imagem */
+}

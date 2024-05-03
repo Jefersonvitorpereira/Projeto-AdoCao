@@ -5,8 +5,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
-import { TelaSobreComponent } from './tela-sobre/tela-sobre.component';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
+import { TelaSobreComponent } from './tela-sobre/tela-sobre.component';
+import { TelaFundoComponent } from './tela-fundo/tela-fundo.component';
+import { TelaModeradorLoginComponent } from './tela-moderador-login/tela-moderador-login.component';
+
 
 @NgModule({
   declarations: [
@@ -14,8 +17,10 @@ import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
     MenuComponent,
     TelaSobreComponent,
     TelaInicialComponent,
+    TelaFundoComponent,
+    TelaModeradorLoginComponent,
 
-    // Outros componentes declarados aqui
+
   ],
   exports: [MenuComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],

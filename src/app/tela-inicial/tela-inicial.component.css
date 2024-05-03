@@ -1,10 +1,4 @@
-main {
-  background: url(/assets/imagens/adote2.png) no-repeat center center fixed;
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-}
-
+/* Estilo para o conteúdo centralizado */
 .conteudo-centralizado {
   position: absolute;
   top: 50%;
@@ -19,19 +13,21 @@ main {
   font-size: 40px; /* Tamanho da fonte, ajuste conforme necessário */
 }
 
-/* Sobreposição de cor */
-main::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Cor e opacidade da sobreposição, ajuste conforme necessário */
-  z-index: 0; /* Coloca a sobreposição atrás do texto */
+/* Estilo para os botões */
+.btn-primary {
+  display: block;
+  width: 200px; /* Largura dos botões, ajuste conforme necessário */
+  margin: 10px auto; /* Margem para centralizar os botões */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+/* Estilo para os botões quando hover */
+.btn-primary:hover {
+  background-color: #0056b3;
 }
