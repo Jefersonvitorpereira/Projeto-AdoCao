@@ -1,13 +1,13 @@
-
-html, body, .tela-fundo {
+html,
+body,
+.tela-fundo {
   min-height: 95vh;
-
 }
 
 .tela-fundo {
-  background: url(/assets/imagens/adote2.png) no-repeat center center fixed;
+  background: url(/assets/imagens/adote2.png);
   background-size: cover;
-  position: relative;
+  position: static;
 }
 
 /* Sobreposição de cor */

@@ -9,7 +9,8 @@ import { TelaFundoComponent } from './tela-fundo/tela-fundo.component';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { TelaSobreComponent } from './tela-sobre/tela-sobre.component';
 import { TelaModeradorLoginComponent } from './tela-moderador-login/tela-moderador-login.component';
-
+import { ContateNosComponent } from './contate-nos/contate-nos.component';
+import { ListCaesComponent } from './list-caes/list-caes.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +19,9 @@ import { TelaModeradorLoginComponent } from './tela-moderador-login/tela-moderad
     TelaSobreComponent,
     TelaInicialComponent,
     TelaFundoComponent,
-    TelaModeradorLoginComponent
-
-
+    TelaModeradorLoginComponent,
+    ListCaesComponent,
+    ContateNosComponent,
   ],
   exports: [MenuComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
